@@ -59,9 +59,9 @@
 
 SRAM ~	Size ~	WRAM ~	Description
 
-> x26	(36)		x2210	Boy name (zero padded, must end with byte x00)
+> x26	(36)	x2210	Boy name (zero padded, must end with byte x00)
 
-> x4A	(36)		x2234	Dog name (zero padded, must end with byte x00)
+> x4A	(36)	x2234	Dog name (zero padded, must end with byte x00)
 
 ### [Chunk2](Chunks/Chunk02.md) (Boy stats)
 

@@ -114,33 +114,33 @@ The values below are curious. As far as I can tell, after saving your game, thes
 
 ### [Chunk16](Chunks/Chunk16.md) (various things)
 
-WRAM		Size	Description
+WRAM ~	Size ~	Description
 
-> 0ABA		(2)		Current equipped weapon
+> 0ABA	(2)		Current equipped weapon
 
-> 0ABC		(2)		unknown
+> 0ABC	(2)		unknown
 
-> 0ABE		(2)		Dog - Pointer to current Collar stats
+> 0ABE	(2)		Dog - Pointer to current Collar stats
 
-> 0AC0		(2)		Boy - Pointer to current Armor stats
+> 0AC0	(2)		Boy - Pointer to current Armor stats
 
-> 0AC2		(2)		Boy - Pointer to current Helmet stats
+> 0AC2	(2)		Boy - Pointer to current Helmet stats
 
-> 0AC4		(2)		Boy - Pointer to current Armband stats
+> 0AC4	(2)		Boy - Pointer to current Armband stats
 
-> 0AC6		(3)		Money - Talons
+> 0AC6	(3)		Money - Talons
 
-> 0AC9		(3)		Money - Jewels
+> 0AC9	(3)		Money - Jewels
 
-> 0ACC		(3)		Money - Gold Coins
+> 0ACC	(3)		Money - Gold Coins
 
-> 0ACF		(3)		Money - Credits
+> 0ACF	(3)		Money - Credits
 
 > 0AD2-0B1E	x4D	Most are listed in Secret_of_Evermore:RAM_map
 
 ### [Chunk1](Chunks/Chunk01.md) (Character names)
 
-WRAM	Size	Location	Description
+WRAM ~	Size ~	Description
 
 > 2210	(36)	Boy name (zero padded, must end with byte x00)
 
@@ -148,31 +148,31 @@ WRAM	Size	Location	Description
 
 ### [Chunk18](Chunks/Chunk18.md) (unknowns)
 
-WRAM		Size	Description
+WRAM ~		Size ~	Description
 
 > 2258-22E9	(146)	unknown
 
 ### [Chunk19](Chunks/Chunk19.md) (Alchemy ingredients and Inventory)
 
-WRAM		Size	Description
+WRAM ~		Size ~	Description
 
 > 22FF-235A	(92)	Most are listed in Secret_of_Evermore:RAM_map
 
 ### [20](Chunks/Chunk20.md) (unknowns)
 
-WRAM		Size	Description
+WRAM ~		Size ~	Description
 
 > 2361-238C	(44)	unknown
 
 ### [Chunk21](Chunks/Chunk21.md) (Trade good amounts)
 
-WRAM		Size	Description
+WRAM ~		Size ~	Description
 
 > 2513-2532	(32) 	Most are listed in Secret_of_Evermore:RAM_map
 
 ### [Chunk17](Chunks/Chunk17.md) (Alchemy levels and unknowns)
 
-WRAM		Size	Description
+WRAM ~		Size ~	Description
 
 > 2F52		(70)	Alchemy spell levels (low part)
 

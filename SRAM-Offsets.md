@@ -57,7 +57,7 @@
 
 * [Chunk1](Chunks/Chunk01.md)
 
-SRAM	Size	WRAM	Description (checksum and strings)
+SRAM ~	Size ~	WRAM ~	Description (checksum and strings)
 
 > x26	(36)		x2210	Boy name (zero padded, must end with byte x00)
 
@@ -65,13 +65,13 @@ SRAM	Size	WRAM	Description (checksum and strings)
 
 * [Chunk2](Chunks/Chunk02.md)
 
-SRAM	Size	WRAM	Description (Boy stats)
+SRAM ~	Size ~	WRAM ~	Description (Boy stats)
 
 > x6E	(2)		x4EB3	Current HP
 
 * [Chunk3](Chunks/Chunk03.md)
 
-SRAM	Size	WRAM	Description (Boy stats)
+SRAM ~	Size ~	WRAM ~	Description (Boy stats)
 
 > x70	(2)		x4ECF	Status 1 - Status ID
 
@@ -99,7 +99,7 @@ SRAM	Size	WRAM	Description (Boy stats)
 
 * [Chunk4](Chunks/Chunk04.md)
 
-SRAM	Size	WRAM	Description (unknowns)
+SRAM ~	Size ~	WRAM ~	Description (unknowns)
 
 > x88	(2)		x4F23	unknown
 
@@ -109,13 +109,13 @@ SRAM	Size	WRAM	Description (unknowns)
 
 * [Chunk5](Chunks/Chunk05.md)
 
-SRAM	Size	WRAM	Description (Boy stats)
+SRAM ~	Size ~	WRAM ~	Description (Boy stats)
 
 > x8E	(2)		x0A35	Max HP
 
 * [Chunk6](Chunks/Chunk06.md)
 
-SRAM	Size	WRAM	Description (Boy stats)
+SRAM ~	Size ~	WRAM ~	Description (Boy stats)
 
 > x90	(2)		x0A3F	Attack
 
@@ -131,7 +131,7 @@ SRAM	Size	WRAM	Description (Boy stats)
 
 * [Chunk7](Chunks/Chunk07.md)
 
-SRAM	Size	WRAM	Description (Boy stats)
+SRAM ~	Size ~	WRAM ~	Description (Boy stats)
 
 > x9D	(2)		x0A50	Level
 
@@ -141,7 +141,7 @@ The values below are curious. As far as I can tell, after saving your game, thes
 
 * [Chunk8](Chunks/Chunk08.md)
 
-SRAM	Size	WRAM	Description (Boy stats)
+SRAM ~	Size ~	WRAM ~	Description (Boy stats)
 
 > xA1	(2)		x4F29	Overall boost to Attack statistic
 
@@ -159,13 +159,13 @@ SRAM	Size	WRAM	Description (Boy stats)
 
 * [Chunk9](Chunks/Chunk09.md)
 
-SRAM	Size	WRAM	Description (Dog stats)
+SRAM ~	Size ~	WRAM ~	Description (Dog stats)
 
 > xAF	(2)	x4F61	Current HP
 
 * [Chunk10](Chunks/Chunk10.md)
 
-SRAM	Size	WRAM	Description (Dog stats)
+SRAM ~	Size ~	WRAM ~	Description (Dog stats)
 
 > xB1	(2)		x4F7D	Status 1 - Status ID
 
@@ -193,7 +193,7 @@ SRAM	Size	WRAM	Description (Dog stats)
 
 * [Chunk11](Chunks/Chunk11.md)
 
-SRAM	Size	WRAM	Description (unknowns)
+SRAM ~	Size ~	WRAM ~	Description (unknowns)
 
 > xC9	(2)		x4FD1	unknown
 
@@ -203,13 +203,13 @@ SRAM	Size	WRAM	Description (unknowns)
 
 * [Chunk12](Chunks/Chunk12.md)
 
-SRAM	Size	WRAM	Description (Dog stats)
+SRAM ~	Size ~	WRAM ~	Description (Dog stats)
 
 > xCF	(2)		x0A7F	Max HP
 
 * [Chunk13](Chunks/Chunk13.md)
 
-SRAM	Size	WRAM	Description (Dog stats)
+SRAM ~	Size ~	WRAM ~	Description (Dog stats)
 
 > xD1	(2)		x0A89	Attack
 
@@ -225,7 +225,7 @@ SRAM	Size	WRAM	Description (Dog stats)
 
 * [Chunk14](Chunks/Chunk14.md)
 
-SRAM	Size	WRAM	Description (Dog stats)
+SRAM ~	Size ~	WRAM ~	Description (Dog stats)
 
 > xDE	(2)		x0A9A	Level
 
@@ -235,7 +235,7 @@ The values below are curious. As far as I can tell, after saving your game, thes
 
 * [Chunk15](Chunks/Chunk15.md)
 
-SRAM	Size	WRAM	Description (Boy stats)
+SRAM ~	Size ~	WRAM ~	Description (Boy stats)
 
 > xE2	(2)		x4FD7	Overall boost to Attack statistic
 
@@ -253,7 +253,7 @@ SRAM	Size	WRAM	Description (Boy stats)
 
 * [Chunk16](Chunks/Chunk16.md)
 
-SRAM	Size	WRAM ~		Description (various things)
+SRAM ~	Size ~	WRAM ~		Description (various things)
 
 > xF0	(2)		x0ABA		Current equipped weapon
 

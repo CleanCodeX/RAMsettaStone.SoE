@@ -2,9 +2,8 @@
 
 > Size: 8,192 bytes (8 KiB)
 
-> [Offsets overview](SRAM-Offsets.md)
-
-> [Unknowns](SRAM-Unknowns.md)
+* [Offsets overview](SRAM-Offsets.md)
+* [Unknowns](SRAM-Unknowns.md)
 
 ### Pre-save slot
 * byte AudioMode : (0) => mono, (1) => stereo

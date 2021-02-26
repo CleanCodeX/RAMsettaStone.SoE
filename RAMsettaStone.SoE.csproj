@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<LangVersion>preview</LangVersion>
+		<Version>0.1.0-a1</Version>
+		<PackageTags>SoE, Secret of Evermore, S-RAM, W-RAM, SNES, Rosetta Stone, RAMsetta Stone, Format, Super Nintendo, Super Famicon</PackageTags>
+		<Authors>S. Krauter { CleanCoderX, XETH }</Authors>
+		<Description>SoE's RAMsetta Stone document</Description>
+		<Company>KST</Company>
+		<RepositoryUrl>https://github.com/CleanCodeX/RAMsettaStone.SoE</RepositoryUrl>
+		<PackageProjectUrl>http://evermore.xeth.de</PackageProjectUrl>
+		<Product>RAMsettaStone.SoE »Rosetta Stone«</Product>
+		<Platforms>AnyCPU</Platforms>
+		<RepositoryType>Rosetta Stone</RepositoryType>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+		<DebugType>full</DebugType>
+		<DebugSymbols>true</DebugSymbols>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<DebugType>embedded</DebugType>
+		<DebugSymbols>true</DebugSymbols>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Folder Include="Properties\" />
+		<Folder Include="Properties\" />
+		<Folder Include="Properties\" />
+	</ItemGroup>
+
+</Project>

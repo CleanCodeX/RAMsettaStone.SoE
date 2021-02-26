@@ -1,0 +1,3 @@
+﻿# There are unknown W-RAM offsets for:
+
+There is nothing here unless somebody adds something…

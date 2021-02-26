@@ -2,15 +2,15 @@
 
 [Credits](Credits.md)
 
-## Secret Of Evermore ~ W-RAM »Rosetta Stone« Document 
+## W-RAM »Rosetta Stone« Document 
 
-* ### [W-RAM Map](W-RAM.md)
-* ### [Offsets & S-RAM Mapping](W-RAM-Offsets.md)
-* ### [Unknowns](W-RAM-Unknowns.md)
+* ### [W-RAM Map](WRAM.md)
+* ### [Offsets & S-RAM Mapping](WRAM-Offsets.md)
+* ### [Unknowns](WRAM-Unknowns.md)
 
-## Secret Of Evermore ~ S-RAM »Rosetta Stone« Document 
+## S-RAM »Rosetta Stone« Document 
 
-* ### [S-RAM Map](S-RAM.md)
-* ### [Offsets](S-RAM-Offsets.md)
-* ### [Unknowns](S-RAM-Unknowns.md)
+* ### [S-RAM Map](SRAM.md)
+* ### [Offsets](SRAM-Offsets.md)
+* ### [Unknowns](SRAM-Unknowns.md)
 

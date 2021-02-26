@@ -1,6 +1,8 @@
 ﻿# Secret Of Evermore ~ W-RAM - Map
 
 Size: 131,072 bytes (128 KiB)
+[Offsets overview](WRAM-Offsets.md)
+[Unknowns](WRAM-Unknowns.md)
 
 ### Unknown1
 * byte[] Unknown1 Offset [0x0]  (2,613 bytes)

@@ -4,31 +4,31 @@
 
 (in order of W-RAM offset)
 
-> * [Chunk5](Chunks/Chunk05.md): [xA35|2613]  (2 bytes)      => S-RAM: [x8E|142]
-> * [Chunk6](Chunks/Chunk06.md): [xA3F|2623]  (13 bytes)     => S-RAM: [x90|144]
-> * [Chunk7](Chunks/Chunk07.md): [xA50|2640]  (4 bytes)      => S-RAM: [x9D|157]
-> * [Chunk12](Chunks/Chunk12.md): [xA7F|2687]  (2 bytes)     => S-RAM: [xCF|207]
-> * [Chunk13](Chunks/Chunk13.md): [xA89|2697]  (13 bytes)    => S-RAM: [xD1|209]
-> * [Chunk14](Chunks/Chunk14.md): [xA9A|2714]  (4 bytes)     => S-RAM: [xDE|222]
-> * [Chunk16](Chunks/Chunk16.md): [xABA|2746]  (101 bytes)   => S-RAM: [xF0|240]
-> * [Chunk1](Chunks/Chunk01.md): [x2210|8720]  (72 bytes)    => S-RAM: [x26|038]
+* > [Chunk5](Chunks/Chunk05.md): [xA35|2613]  (2 bytes)      => S-RAM: [x8E|142]
+* > [Chunk6](Chunks/Chunk06.md): [xA3F|2623]  (13 bytes)     => S-RAM: [x90|144]
+* > [Chunk7](Chunks/Chunk07.md): [xA50|2640]  (4 bytes)      => S-RAM: [x9D|157]
+* > [Chunk12](Chunks/Chunk12.md): [xA7F|2687]  (2 bytes)     => S-RAM: [xCF|207]
+* > [Chunk13](Chunks/Chunk13.md): [xA89|2697]  (13 bytes)    => S-RAM: [xD1|209]
+* > [Chunk14](Chunks/Chunk14.md): [xA9A|2714]  (4 bytes)     => S-RAM: [xDE|222]
+* > [Chunk16](Chunks/Chunk16.md): [xABA|2746]  (101 bytes)   => S-RAM: [xF0|240]
+* > [Chunk1](Chunks/Chunk01.md): [x2210|8720]  (72 bytes)    => S-RAM: [x26|038]
 
-> * [Chunk18](Chunks/Chunk18.md): [x2258|8792]  (146 bytes)  => S-RAM: [x1F7|503]
-> * [Chunk19](Chunks/Chunk19.md): [x22FF|8959]  (92 bytes)   => S-RAM: [x289|649]
-> * [Chunk20](Chunks/Chunk20.md): [x2361|9057]  (44 bytes)   => S-RAM: [x2E5|741]
-> * [Chunk21](Chunks/Chunk21.md): [x2513|9491]  (32 bytes)   => S-RAM: [x311|785]
+* > [Chunk18](Chunks/Chunk18.md): [x2258|8792]  (146 bytes)  => S-RAM: [x1F7|503]
+* > [Chunk19](Chunks/Chunk19.md): [x22FF|8959]  (92 bytes)   => S-RAM: [x289|649]
+* > [Chunk20](Chunks/Chunk20.md): [x2361|9057]  (44 bytes)   => S-RAM: [x2E5|741]
+* > [Chunk21](Chunks/Chunk21.md): [x2513|9491]  (32 bytes)   => S-RAM: [x311|785]
 
-> * [Chunk17](Chunks/Chunk17.md): [x2F52|12114]  (162 bytes) => S-RAM: [x155|341]
+* > [Chunk17](Chunks/Chunk17.md): [x2F52|12114]  (162 bytes) => S-RAM: [x155|341]
 
-> * [Chunk2](Chunks/Chunk02.md): [x4EB3|20147]  (2 bytes)    => S-RAM: [x6E|110]
-> * [Chunk3](Chunks/Chunk03.md): [x4ECF|20175]  (24 bytes)   => S-RAM: [x70|112]
+* > [Chunk2](Chunks/Chunk02.md): [x4EB3|20147]  (2 bytes)    => S-RAM: [x6E|110]
+* > [Chunk3](Chunks/Chunk03.md): [x4ECF|20175]  (24 bytes)   => S-RAM: [x70|112]
 
-> * [Chunk4](Chunks/Chunk04.md): [x4F23|20259]  (6 bytes)    => S-RAM: [x88|136]
-> * [Chunk8](Chunks/Chunk08.md): [x4F29|20265]  (14 bytes)   => S-RAM: [xA1|161]
-> * [Chunk9](Chunks/Chunk09.md): [x4F61|20321]  (2 bytes)    => S-RAM: [xB1|177]
-> * [Chunk10](Chunks/Chunk10.md): [x4F7D|20349]  (24 bytes)  => S-RAM: [xAF|175]
-> * [Chunk11](Chunks/Chunk11.md): [x4FD1|20433]  (6 bytes)   => S-RAM: [xC9|201]
-> * [Chunk15](Chunks/Chunk15.md): [x4FD7|20439]  (14 bytes)  => S-RAM: [xE2|226]
+* > [Chunk4](Chunks/Chunk04.md): [x4F23|20259]  (6 bytes)    => S-RAM: [x88|136]
+* > [Chunk8](Chunks/Chunk08.md): [x4F29|20265]  (14 bytes)   => S-RAM: [xA1|161]
+* > [Chunk9](Chunks/Chunk09.md): [x4F61|20321]  (2 bytes)    => S-RAM: [xB1|177]
+* > [Chunk10](Chunks/Chunk10.md): [x4F7D|20349]  (24 bytes)  => S-RAM: [xAF|175]
+* > [Chunk11](Chunks/Chunk11.md): [x4FD1|20433]  (6 bytes)   => S-RAM: [xC9|201]
+* > [Chunk15](Chunks/Chunk15.md): [x4FD7|20439]  (14 bytes)  => S-RAM: [xE2|226]
 
 All Offsets belong to 7E address space. Meaning offset 0000 is located at $7E:0001
 

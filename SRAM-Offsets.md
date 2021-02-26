@@ -58,6 +58,7 @@
 * [Chunk1](Chunks/Chunk01.md)
 SRAM	Size	WRAM	Description (checksum and strings)
 > x26	x24		x2210	Boy name (zero padded, must end with byte x00)
+
 > x4A	x24		x2234	Dog name (zero padded, must end with byte x00)
 
 * [Chunk2](Chunks/Chunk02.md)

@@ -13,27 +13,47 @@
 ### Save slot (relative)
 > Checksum: [0]
 
-> Chunk1: [x26|38] 
-> Chunk2: [x6E|110] 
-> Chunk3: [x70|112] 
-> Chunk4: [x88|136] 
-> Chunk5: [x8E|142] 
-> Chunk6: [x90|144] 
-> Chunk7: [x9D|157] 
-> Chunk8: [xA1|161] 
-> Chunk9: [xAF|175] 
-> Chunk10: [xB1|177] 
-> Chunk11: [xC9|201] 
-> Chunk12: [xCF|207] 
-> Chunk13: [xD1|209]
-> Chunk14: [xDE|222] 
-> Chunk15: [xE4|226]
-> Chunk16: [xF0|240]
-> Chunk17: [x155|341] 
-> Chunk18: [x1F7|503]
-> Chunk19: [x289|649] 
-> Chunk20: [x2E5|741] 
-> Chunk21: [x311|785]
+> [Chunk1](Chunks/Chunk01.md): [x26|38] 
+
+> [Chunk2](Chunks/Chunk02.md): [x6E|110] 
+
+> [Chunk3](Chunks/Chunk03.md): [x70|112] 
+
+> [Chunk4](Chunks/Chunk04.md): [x88|136] 
+
+> [Chunk5](Chunks/Chunk05.md): [x8E|142] 
+
+> [Chunk6](Chunks/Chunk06.md): [x90|144] 
+
+> [Chunk7](Chunks/Chunk07.md): [x9D|157] 
+
+> [Chunk8](Chunks/Chunk08.md): [xA1|161] 
+
+> [Chunk9](Chunks/Chunk09.md): [xAF|175] 
+
+> [Chunk10](Chunks/Chunk10.md): [xB1|177] 
+
+> [Chunk11](Chunks/Chunk11.md): [xC9|201] 
+
+> [Chunk12](Chunks/Chunk12.md): [xCF|207] 
+
+> [Chunk13](Chunks/Chunk13.md): [xD1|209]
+
+> [Chunk14](Chunks/Chunk14.md): [xDE|222] 
+
+> [Chunk15](Chunks/Chunk15.md): [xE4|226]
+
+> [Chunk16](Chunks/Chunk16.md): [xF0|240]
+
+> [Chunk17](Chunks/Chunk17.md): [x155|341] 
+
+> [Chunk18](Chunks/Chunk18.md): [x1F7|503]
+
+> [Chunk19](Chunks/Chunk19.md): [x289|649] 
+
+> [Chunk20](Chunks/Chunk20.md): [x2E5|741] 
+
+> [Chunk21](Chunks/Chunk21.md): [x311|785]
 
 * [Chunk1](Chunks/Chunk01.md)
 SRAM	Size	WRAM	Description (checksum and strings)

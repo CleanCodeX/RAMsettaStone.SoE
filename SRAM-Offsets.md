@@ -55,23 +55,23 @@
 
 > [Chunk21](Chunks/Chunk21.md): [x311|785]
 
-* [Chunk1](Chunks/Chunk01.md)
+### [Chunk1](Chunks/Chunk01.md) (Character names)
 
-SRAM ~	Size ~	WRAM ~	Description (checksum and strings)
+SRAM ~	Size ~	WRAM ~	Description
 
 > x26	(36)		x2210	Boy name (zero padded, must end with byte x00)
 
 > x4A	(36)		x2234	Dog name (zero padded, must end with byte x00)
 
-* [Chunk2](Chunks/Chunk02.md)
+### [Chunk2](Chunks/Chunk02.md) (Boy stats)
 
-SRAM ~	Size ~	WRAM ~	Description (Boy stats)
+SRAM ~	Size ~	WRAM ~	Description
 
 > x6E	(2)		x4EB3	Current HP
 
-* [Chunk3](Chunks/Chunk03.md)
+### [Chunk3](Chunks/Chunk03.md) (Boy stats)
 
-SRAM ~	Size ~	WRAM ~	Description (Boy stats)
+SRAM ~	Size ~	WRAM ~	Description
 
 > x70	(2)		x4ECF	Status 1 - Status ID
 
@@ -97,9 +97,9 @@ SRAM ~	Size ~	WRAM ~	Description (Boy stats)
 
 > x86	(2)		x4EE5	Status 4 - Boost provided to statistic(s), OR Time since/until last/next damage/healing interval
 
-* [Chunk4](Chunks/Chunk04.md)
+### [Chunk4](Chunks/Chunk04.md) (unknowns)
 
-SRAM ~	Size ~	WRAM ~	Description (unknowns)
+SRAM ~	Size ~	WRAM ~	Description
 
 > x88	(2)		x4F23	unknown
 
@@ -107,15 +107,15 @@ SRAM ~	Size ~	WRAM ~	Description (unknowns)
 
 > x8C	(2)		x4F27	unknown
 
-* [Chunk5](Chunks/Chunk05.md)
+### [Chunk5](Chunks/Chunk05.md) (Boy stats)
 
-SRAM ~	Size ~	WRAM ~	Description (Boy stats)
+SRAM ~	Size ~	WRAM ~	Description
 
 > x8E	(2)		x0A35	Max HP
 
-* [Chunk6](Chunks/Chunk06.md)
+### [Chunk6](Chunks/Chunk06.md) (Boy stats)
 
-SRAM ~	Size ~	WRAM ~	Description (Boy stats)
+SRAM ~	Size ~	WRAM ~	Description
 
 > x90	(2)		x0A3F	Attack
 
@@ -127,21 +127,21 @@ SRAM ~	Size ~	WRAM ~	Description (Boy stats)
 
 > x98	(2)		x0A47	Hit %
 
-> x9A	(2)		x0A49	Experience (3 bytes)
+> x9A	(2)		x0A49	Experience
 
-* [Chunk7](Chunks/Chunk07.md)
+### [Chunk7](Chunks/Chunk07.md) (Boy stats)
 
-SRAM ~	Size ~	WRAM ~	Description (Boy stats)
+SRAM ~	Size ~	WRAM ~	Description
 
 > x9D	(2)		x0A50	Level
 
 > x9F	(2)		x0A52	Max Chargeup
 
-The values below are curious. As far as I can tell, after saving your game, these values will always be x4F. It seems an oversight of the game programmers, as the game copies these values from $30:4Fxx, which is open bus. The values below will always be x4F in a save file, but it seems the programmers meant to copy the values from x4Fxx.
+Values below are curious. As far as I can tell, after saving your game, these values will always be x4F. It seems an oversight of the game programmers, as the game copies these values from $30:4Fxx, which is open bus. The values below will always be x4F in a save file, but it seems the programmers meant to copy the values from x4Fxx.
 
-* [Chunk8](Chunks/Chunk08.md)
+### [Chunk8](Chunks/Chunk08.md) (Boy stats)
 
-SRAM ~	Size ~	WRAM ~	Description (Boy stats)
+SRAM ~	Size ~	WRAM ~	Description
 
 > xA1	(2)		x4F29	Overall boost to Attack statistic
 
@@ -157,15 +157,15 @@ SRAM ~	Size ~	WRAM ~	Description (Boy stats)
 
 > xAD	(2)		x4F35	Regenerate (Horace) or Pixie Dust protection in effect
 
-* [Chunk9](Chunks/Chunk09.md)
+### [Chunk9](Chunks/Chunk09.md) (Dog stats)
 
-SRAM ~	Size ~	WRAM ~	Description (Dog stats)
+SRAM ~	Size ~	WRAM ~	Description
 
 > xAF	(2)	x4F61	Current HP
 
-* [Chunk10](Chunks/Chunk10.md)
+### [Chunk10](Chunks/Chunk10.md) (Dog stats)
 
-SRAM ~	Size ~	WRAM ~	Description (Dog stats)
+SRAM ~	Size ~	WRAM ~	Description
 
 > xB1	(2)		x4F7D	Status 1 - Status ID
 
@@ -191,9 +191,9 @@ SRAM ~	Size ~	WRAM ~	Description (Dog stats)
 
 > xC7	(2)		x4F93	Status 4 - Boost provided to statistic(s), OR Time since/until last/next damage/healing interval
 
-* [Chunk11](Chunks/Chunk11.md)
+### [Chunk11](Chunks/Chunk11.md) (unknowns)
 
-SRAM ~	Size ~	WRAM ~	Description (unknowns)
+SRAM ~	Size ~	WRAM ~	Description
 
 > xC9	(2)		x4FD1	unknown
 
@@ -201,15 +201,15 @@ SRAM ~	Size ~	WRAM ~	Description (unknowns)
 
 > xCD	(2)		x4FD5	unknown
 
-* [Chunk12](Chunks/Chunk12.md)
+### [Chunk12](Chunks/Chunk12.md) (Dog stats)
 
-SRAM ~	Size ~	WRAM ~	Description (Dog stats)
+SRAM ~	Size ~	WRAM ~	Description
 
 > xCF	(2)		x0A7F	Max HP
 
-* [Chunk13](Chunks/Chunk13.md)
+### [Chunk13](Chunks/Chunk13.md) (Dog stats)
 
-SRAM ~	Size ~	WRAM ~	Description (Dog stats)
+SRAM ~	Size ~	WRAM ~	Description
 
 > xD1	(2)		x0A89	Attack
 
@@ -221,11 +221,11 @@ SRAM ~	Size ~	WRAM ~	Description (Dog stats)
 
 > xD9	(2)		x0A91	Hit %
 
-> xDB	(3)		x0A93	Experience (3 bytes)
+> xDB	(3)		x0A93	Experience
 
-* [Chunk14](Chunks/Chunk14.md)
+### [Chunk14](Chunks/Chunk14.md) (Dog stats)
 
-SRAM ~	Size ~	WRAM ~	Description (Dog stats)
+SRAM ~	Size ~	WRAM ~	Description
 
 > xDE	(2)		x0A9A	Level
 
@@ -233,9 +233,9 @@ SRAM ~	Size ~	WRAM ~	Description (Dog stats)
 
 The values below are curious. As far as I can tell, after saving your game, these values will always be x4F. It seems an oversight of the game programmers, as the game copies these values from $30:4Fxx, which is open bus. The values below will always be x4F in a save file, but it seems the programmers meant to copy the values from x4Fxx.
 
-* [Chunk15](Chunks/Chunk15.md)
+### [Chunk15](Chunks/Chunk15.md) (Boy stats)
 
-SRAM ~	Size ~	WRAM ~	Description (Boy stats)
+SRAM ~	Size ~	WRAM ~	Description
 
 > xE2	(2)		x4FD7	Overall boost to Attack statistic
 
@@ -251,9 +251,9 @@ SRAM ~	Size ~	WRAM ~	Description (Boy stats)
 
 > xEE	(2)		x4FE3	Regenerate (Horace) or Pixie Dust protection in effect
 
-* [Chunk16](Chunks/Chunk16.md)
+### [Chunk16](Chunks/Chunk16.md) (various things)
 
-SRAM ~	Size ~	WRAM ~		Description (various things)
+SRAM ~	Size ~	WRAM ~		Description
 
 > xF0	(2)		x0ABA		Current equipped weapon
 
@@ -277,9 +277,9 @@ SRAM ~	Size ~	WRAM ~		Description (various things)
 
 > x108	x4D		x0AD2-0B1E	Most are listed in Secret_of_Evermore:RAM_map
 
-* [Chunk17](Chunks/Chunk17.md)
+### [Chunk17](Chunks/Chunk17.md) (Alchemy levels and unknowns)
 
-SRAM ~		Size ~	WRAM ~		Description (Alchemy levels and unknowns)
+SRAM ~		Size ~	WRAM ~		Description
 
 > x155		(70)	x2F52		Alchemy spell levels (low component)
 
@@ -287,27 +287,27 @@ SRAM ~		Size ~	WRAM ~		Description (Alchemy levels and unknowns)
 
 > x1E1-1F6	(22)	x2FDE-2FF3	unknown
 
-* [Chunk18](Chunks/Chunk18.md)
+### [Chunk18](Chunks/Chunk18.md) (unknowns)
 
-SRAM ~		Size ~	WRAM ~		Description (unknowns)
+SRAM ~		Size ~	WRAM ~		Description
 
 > x1F7-288	(146)	x2258-22E9	unknown
 
-* [Chunk19](Chunks/Chunk19.md)
+### [Chunk19](Chunks/Chunk19.md) (Alchemy ingredients and Inventory)
 
-SRAM ~		Size ~	WRAM ~		Description (Alchemy ingredients and Inventory)
+SRAM ~		Size ~	WRAM ~		Description
 
 > x289-2E4	(92)	x22FF-235A	Most are listed in Secret_of_Evermore:RAM_map
 
-* [Chunk20](Chunks/Chunk20.md)
+### [Chunk20](Chunks/Chunk20.md) (unknowns)
 
-SRAM ~		Size ~	WRAM ~		Description (unknowns)
+SRAM ~		Size ~	WRAM ~		Description
 
 > x2E5-310	(44)	x2361-238C	unknown
 
-* [Chunk21](Chunks/Chunk21.md)
+### [Chunk21](Chunks/Chunk21.md) (Trade good amounts)
 
-SRAM ~		Size ~	WRAM ~		Description (Trade good amounts)
+SRAM ~		Size ~	WRAM ~		Description
 
 > x311-330	(32)	x2513-2532	Most are listed in Secret_of_Evermore:RAM_map
 

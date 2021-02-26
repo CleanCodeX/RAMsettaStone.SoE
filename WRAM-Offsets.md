@@ -48,15 +48,15 @@
 
 All Offsets belong to 7E address space. Meaning offset 0000 is located at $7E:0000
 
-### [Chunk5](Chunks/Chunk05.md)
+### [Chunk5](Chunks/Chunk05.md) (Boy stats)
 
-WRAM ~	Size ~	Description (Boy stats)
+WRAM ~	Size ~	Description
 
 > 0A35	(2)		Max HP
 
-### [Chunk6](Chunks/Chunk06.md)
+### [Chunk6](Chunks/Chunk06.md) (Boy stats)
 
-WRAM ~	Size ~	Description (Boy stats)
+WRAM ~	Size ~	Description
 
 > 0A3F	(2)		Attack
 
@@ -68,27 +68,27 @@ WRAM ~	Size ~	Description (Boy stats)
 
 > 0A47	(2)		Hit %
 
-> 0A49	(3)		Experience (3 bytes)
+> 0A49	(3)		Experience 
 
-### [Chunk7](Chunks/Chunk07.md)
+### [Chunk7](Chunks/Chunk07.md) (Boy stats)
 
-WRAM ~	Size ~	Description (Boy stats)
+WRAM ~	Size ~	Description
 
 > 0A50	(2)		Level
 
 > 0A52	(2)		Max Chargeup
 
-> The values below are curious. As far as I can tell, after saving your game, these values will always be x4F. It seems an oversight of the game programmers, as the game copies these values from $30:4Fxx, which is open bus. The values below will always be x4F in a save file, but it seems the programmers meant to copy the values from 4Fxx.
+The values below are curious. As far as I can tell, after saving your game, these values will always be x4F. It seems an oversight of the game programmers, as the game copies these values from $30:4Fxx, which is open bus. The values below will always be x4F in a save file, but it seems the programmers meant to copy the values from 4Fxx.
 
-### [Chunk12](Chunks/Chunk12.md)
+### [Chunk12](Chunks/Chunk12.md) (Dog stats)
 
-WRAM ~	Size ~	Description (Dog stats)
+WRAM ~	Size ~	Description
 
 > 0A7F	(2)		Max HP
 
-### [Chunk13](Chunks/Chunk13.md)
+### [Chunk13](Chunks/Chunk13.md) (Dog stats)
 
-WRAM ~	Size ~	Description (Dog stats)
+WRAM ~	Size ~	Description
 
 > 0A89	(2)		Attack
 
@@ -100,21 +100,21 @@ WRAM ~	Size ~	Description (Dog stats)
 
 > 0A91	(2)		Hit %
 
-> 0A93	(3)		Experience (3 bytes)
+> 0A93	(3)		Experience
 
-### [Chunk14](Chunks/Chunk14.md)
+### [Chunk14](Chunks/Chunk14.md) (Dog stats)
 
-WRAM ~	Size ~	Description (Dog stats)
+WRAM ~	Size ~	Description
 
 > 0A9A	(2)		Level
 
 > 0A9C	(2)		Max Chargeup
 
-> The values below are curious. As far as I can tell, after saving your game, these values will always be x4F. It seems an oversight of the game programmers, as the game copies these values from $30:4Fxx, which is open bus. The values below will always be x4F in a save file, but it seems the programmers meant to copy the values from 4Fxx.
+The values below are curious. As far as I can tell, after saving your game, these values will always be x4F. It seems an oversight of the game programmers, as the game copies these values from $30:4Fxx, which is open bus. The values below will always be x4F in a save file, but it seems the programmers meant to copy the values from 4Fxx.
 
-### [Chunk16](Chunks/Chunk16.md)
+### [Chunk16](Chunks/Chunk16.md) (various things)
 
-WRAM		Size	Description (various things)
+WRAM		Size	Description
 
 > 0ABA		(2)		Current equipped weapon
 
@@ -138,57 +138,57 @@ WRAM		Size	Description (various things)
 
 > 0AD2-0B1E	x4D	Most are listed in Secret_of_Evermore:RAM_map
 
-### [Chunk1](Chunks/Chunk01.md)
+### [Chunk1](Chunks/Chunk01.md) (Character names)
 
-WRAM	Size	Location	Description (checksum and strings)
+WRAM	Size	Location	Description
 
 > 2210	(36)	Boy name (zero padded, must end with byte x00)
 
 > 2234	(36)	Dog name (zero padded, must end with byte x00)
 
-### [Chunk18](Chunks/Chunk18.md)
+### [Chunk18](Chunks/Chunk18.md) (unknowns)
 
-WRAM		Size	Description (unknowns)
+WRAM		Size	Description
 
 > 2258-22E9	(146)	unknown
 
-### [Chunk19](Chunks/Chunk19.md)
+### [Chunk19](Chunks/Chunk19.md) (Alchemy ingredients and Inventory)
 
-WRAM		Size	Description (Alchemy ingredients and Inventory)
+WRAM		Size	Description
 
 > 22FF-235A	(92)	Most are listed in Secret_of_Evermore:RAM_map
 
-### [20](Chunks/Chunk20.md)
+### [20](Chunks/Chunk20.md) (unknowns)
 
-WRAM		Size	Description (unknowns)
+WRAM		Size	Description
 
 > 2361-238C	(44)	unknown
 
-### [Chunk21](Chunks/Chunk21.md)
+### [Chunk21](Chunks/Chunk21.md) (Trade good amounts)
 
-WRAM		Size	Description (Trade good amounts)
+WRAM		Size	Description
 
 > 2513-2532	(32) 	Most are listed in Secret_of_Evermore:RAM_map
 
-### [Chunk17](Chunks/Chunk17.md)
+### [Chunk17](Chunks/Chunk17.md) (Alchemy levels and unknowns)
 
-WRAM		Size	Description (Alchemy levels and unknowns)
+WRAM		Size	Description
 
-> 2F52		(70)	Alchemy spell levels (low component)
+> 2F52		(70)	Alchemy spell levels (low part)
 
-> 2F98		(70)	Alchemy spell levels (high component)
+> 2F98		(70)	Alchemy spell levels (high part)
 
 > 2FDE-2FF3	(22)	unknown
 
-### [Chunk2](Chunks/Chunk02.md)
+### [Chunk2](Chunks/Chunk02.md) (Boy stats)
 
-WRAM ~	Size ~	Description (Boy stats)
+WRAM ~	Size ~	Description
 
 > 4EB3	(2)		Current HP
 
-### [Chunk3](Chunks/Chunk03.md)
+### [Chunk3](Chunks/Chunk03.md) (Boy stats)
 
-WRAM ~	Size ~	Description (Boy stats)
+WRAM ~	Size ~	Description
 
 > 4ECF	(2)		Status 1 - Status ID
 
@@ -214,9 +214,9 @@ WRAM ~	Size ~	Description (Boy stats)
 
 > 4EE5	(2)		Status 4 - Boost provided to statistic(s), OR Time since/until last/next damage/healing interval
 
-### [Chunk4](Chunks/Chunk04.md)
+### [Chunk4](Chunks/Chunk04.md) (unknowns)
 
-WRAM ~	Size ~	Description (unknowns)
+WRAM ~	Size ~	Description
 
 > 4F23	(2)		unknown
 
@@ -224,9 +224,9 @@ WRAM ~	Size ~	Description (unknowns)
 
 > 4F27	(2)		unknown
 
-### [Chunk8](Chunks/Chunk08.md)
+### [Chunk8](Chunks/Chunk08.md) (Boy stats)
 
-WRAM	Size	Open bus	Description (Boy stats)
+WRAM	Size	Open bus	Description
 
 > 4F29	(2)		$30:4F29	Overall boost to Attack statistic
 
@@ -242,15 +242,15 @@ WRAM	Size	Open bus	Description (Boy stats)
 
 > 4F35	(2)		$30:4F35	Regenerate (Horace) or Pixie Dust protection in effect
 
-### [Chunk9](Chunks/Chunk09.md)
+### [Chunk9](Chunks/Chunk09.md) (Dog stats)
 
-WRAM ~	Size ~	Description (Dog stats)
+WRAM ~	Size ~	Description
 
 > 4F61	(2)		Current HP
 
-### [Chunk10](Chunks/Chunk10.md)
+### [Chunk10](Chunks/Chunk10.md) (Dog stats)
 
-WRAM ~	Size ~	Description (Dog stats)
+WRAM ~	Size ~	Description
 
 > 4F7D	(2)		Status 1 - Status ID
 
@@ -276,9 +276,9 @@ WRAM ~	Size ~	Description (Dog stats)
 
 > 4F93	(2)		Status 4 - Boost provided to statistic(s), OR Time since/until last/next damage/healing interval
 
-### [Chunk11](Chunks/Chunk11.md)
+### [Chunk11](Chunks/Chunk11.md) (unknowns)
 
-WRAM ~	Size ~	Description (unknowns)
+WRAM ~	Size ~	Description
 
 > 4FD1	(2)		unknown
 
@@ -286,9 +286,9 @@ WRAM ~	Size ~	Description (unknowns)
 
 > 4FD5	(2)		unknown
 
-### [Chunk15](Chunks/Chunk15.md)
+### [Chunk15](Chunks/Chunk15.md) (Boy stats)
 
-WRAM ~	Size ~	Description (Boy stats)
+WRAM ~	Size ~	Description
 
 > 4FD7	(2)		Overall boost to Attack statistic
 

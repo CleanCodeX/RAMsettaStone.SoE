@@ -46,7 +46,7 @@
 
 > [Chunk15](Chunks/Chunk15.md): [x4FD7|20439]  (14 bytes)  => S-RAM: [xE2|226]
 
-All Offsets belong to 7E address space. Meaning offset 0000 is located at $7E:0001
+All Offsets belong to 7E address space. Meaning offset 0000 is located at $7E:0000
 
 ### [Chunk5](Chunks/Chunk05.md)
 

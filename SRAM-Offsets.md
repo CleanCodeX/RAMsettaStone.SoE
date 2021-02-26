@@ -253,7 +253,7 @@ SRAM	Size	WRAM	Description (Boy stats)
 
 * [Chunk16](Chunks/Chunk16.md)
 
-SRAM	Size	WRAM		Description (various things)
+SRAM	Size	WRAM ~		Description (various things)
 
 > xF0	(2)		x0ABA		Current equipped weapon
 
@@ -279,7 +279,7 @@ SRAM	Size	WRAM		Description (various things)
 
 * [Chunk17](Chunks/Chunk17.md)
 
-SRAM		Size	WRAM		Description (Alchemy levels and unknowns)
+SRAM ~		Size ~	WRAM ~		Description (Alchemy levels and unknowns)
 
 > x155		(70)	x2F52		Alchemy spell levels (low component)
 
@@ -289,25 +289,25 @@ SRAM		Size	WRAM		Description (Alchemy levels and unknowns)
 
 * [Chunk18](Chunks/Chunk18.md)
 
-SRAM		Size	WRAM		Description (unknowns)
+SRAM ~		Size ~	WRAM ~		Description (unknowns)
 
 > x1F7-288	(146)	x2258-22E9	unknown
 
 * [Chunk19](Chunks/Chunk19.md)
 
-SRAM		Size	WRAM		Description (Alchemy ingredients and Inventory)
+SRAM ~		Size ~	WRAM ~		Description (Alchemy ingredients and Inventory)
 
 > x289-2E4	(92)	x22FF-235A	Most are listed in Secret_of_Evermore:RAM_map
 
 * [Chunk20](Chunks/Chunk20.md)
 
-SRAM		Size	WRAM		Description (unknowns)
+SRAM ~		Size ~	WRAM ~		Description (unknowns)
 
 > x2E5-310	(44)	x2361-238C	unknown
 
 * [Chunk21](Chunks/Chunk21.md)
 
-SRAM		Size	WRAM		Description (Trade good amounts)
+SRAM ~		Size ~	WRAM ~		Description (Trade good amounts)
 
 > x311-330	(32)	x2513-2532	Most are listed in Secret_of_Evermore:RAM_map
 

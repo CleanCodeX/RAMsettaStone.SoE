@@ -9,7 +9,7 @@ Size: 131,072 bytes (128 KiB)
 > byte[] Unknown1 Offset [0x0]  (2,613 bytes)
 
 ## S-RAM area
-Offset: [2613|xA35|]  (17,840 bytes)
+Offset: [xA35|2613]  (17,840 bytes)
 Size: 17,840 bytes (17 KiB)
 
 > [Chunk5](Chunks/Chunk05.md): [xA35|2613]  (2 bytes)      S-RAM: [x8E|142]

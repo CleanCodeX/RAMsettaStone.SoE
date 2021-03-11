@@ -52,31 +52,31 @@ All offsets belong to 7E address space. Meaning offset 0000 is located at $7E:00
 
 WRAM ~	Size ~	Description
 
-> 0A35	(2)		Max HP
+> x0A35	(2)		Max HP
 
 ### [Chunk6](Chunks/Chunk06.md) (Boy stats)
 
 WRAM ~	Size ~	Description
 
-> 0A3F	(2)		Attack
+> x0A3F	(2)		Attack
 
-> 0A41	(2)		Defense
+> x0A41	(2)		Defense
 
-> 0A43	(2)		Magic Def
+> x0A43	(2)		Magic Def
 
-> 0A45	(2)		Evade %
+> x0A45	(2)		Evade %
 
-> 0A47	(2)		Hit %
+> x0A47	(2)		Hit %
 
-> 0A49	(3)		Experience 
+> x0A49	(3)		Experience 
 
 ### [Chunk7](Chunks/Chunk07.md) (Boy stats)
 
 WRAM ~	Size ~	Description
 
-> 0A50	(2)		Level
+> x0A50	(2)		Level
 
-> 0A52	(2)		Max Chargeup
+> x0A52	(2)		Max Chargeup
 
 The values below are curious. As far as I can tell, after saving your game, these values will always be x4F. It seems an oversight of the game programmers, as the game copies these values from $30:4Fxx, which is open bus. The values below will always be x4F in a save file, but it seems the programmers meant to copy the values from 4Fxx.
 
@@ -84,31 +84,31 @@ The values below are curious. As far as I can tell, after saving your game, thes
 
 WRAM ~	Size ~	Description
 
-> 0A7F	(2)		Max HP
+> x0A7F	(2)		Max HP
 
 ### [Chunk13](Chunks/Chunk13.md) (Dog stats)
 
 WRAM ~	Size ~	Description
 
-> 0A89	(2)		Attack
+> x0A89	(2)		Attack
 
-> 0A8B	(2)		Defense
+> x0A8B	(2)		Defense
 
-> 0A8D	(2)		Magic Def
+> x0A8D	(2)		Magic Def
 
-> 0A8F	(2)		Evade %
+> x0A8F	(2)		Evade %
 
-> 0A91	(2)		Hit %
+> x0A91	(2)		Hit %
 
-> 0A93	(3)		Experience
+> x0A93	(3)		Experience
 
 ### [Chunk14](Chunks/Chunk14.md) (Dog stats)
 
 WRAM ~	Size ~	Description
 
-> 0A9A	(2)		Level
+> x0A9A	(2)		Level
 
-> 0A9C	(2)		Max Chargeup
+> x0A9C	(2)		Max Chargeup
 
 The values below are curious. As far as I can tell, after saving your game, these values will always be x4F. It seems an oversight of the game programmers, as the game copies these values from $30:4Fxx, which is open bus. The values below will always be x4F in a save file, but it seems the programmers meant to copy the values from 4Fxx.
 
@@ -116,190 +116,190 @@ The values below are curious. As far as I can tell, after saving your game, thes
 
 WRAM ~	Size ~	Description
 
-> 0ABA	(2)		Current equipped weapon
+> x0ABA	(2)		Current equipped weapon
 
-> 0ABC	(2)		unknown
+> x0ABC	(2)		unknown
 
-> 0ABE	(2)		Dog - Pointer to current Collar stats
+> x0ABE	(2)		Dog - Pointer to current Collar stats
 
-> 0AC0	(2)		Boy - Pointer to current Armor stats
+> x0AC0	(2)		Boy - Pointer to current Armor stats
 
-> 0AC2	(2)		Boy - Pointer to current Helmet stats
+> x0AC2	(2)		Boy - Pointer to current Helmet stats
 
-> 0AC4	(2)		Boy - Pointer to current Armband stats
+> x0AC4	(2)		Boy - Pointer to current Armband stats
 
-> 0AC6	(3)		Money - Talons
+> x0AC6	(3)		Money - Talons
 
-> 0AC9	(3)		Money - Jewels
+> x0AC9	(3)		Money - Jewels
 
-> 0ACC	(3)		Money - Gold Coins
+> x0ACC	(3)		Money - Gold Coins
 
-> 0ACF	(3)		Money - Credits
+> x0ACF	(3)		Money - Credits
 
-> 0AD2-0B1E	x4D	Most are listed in Secret_of_Evermore:RAM_map
+> x0AD2-0B1E	x4D	Most are listed in Secret_of_Evermore:RAM_map
 
 ### [Chunk1](Chunks/Chunk01.md) (Character names)
 
 WRAM ~	Size ~	Description
 
-> 2210	(36)	Boy name (zero padded, must end with byte x00)
+> x2210	(36)	Boy name (zero padded, must end with byte x00)
 
-> 2234	(36)	Dog name (zero padded, must end with byte x00)
+> x2234	(36)	Dog name (zero padded, must end with byte x00)
 
 ### [Chunk18](Chunks/Chunk18.md) (unknowns)
 
 WRAM ~		Size ~	Description
 
-> 2258-22E9	(146)	unknown
+> x2258-22E9	(146)	unknown
 
 ### [Chunk19](Chunks/Chunk19.md) (Alchemy ingredients and Inventory)
 
 WRAM ~		Size ~	Description
 
-> 22FF-235A	(92)	Most are listed in Secret_of_Evermore:RAM_map
+> x22FF-235A	(92)	Most are listed in Secret_of_Evermore:RAM_map
 
 ### [20](Chunks/Chunk20.md) (unknowns)
 
 WRAM ~		Size ~	Description
 
-> 2361-238C	(44)	unknown
+> x2361-238C	(44)	unknown
 
 ### [Chunk21](Chunks/Chunk21.md) (Trade good amounts)
 
 WRAM ~		Size ~	Description
 
-> 2513-2532	(32) 	Most are listed in Secret_of_Evermore:RAM_map
+> x2513-2532	(32) 	Most are listed in Secret_of_Evermore:RAM_map
 
 ### [Chunk17](Chunks/Chunk17.md) (Alchemy levels and unknowns)
 
 WRAM ~		Size ~	Description
 
-> 2F52		(70)	Alchemy spell levels (low part)
+> x2F52		(70)	Alchemy spell levels (low part)
 
-> 2F98		(70)	Alchemy spell levels (high part)
+> x2F98		(70)	Alchemy spell levels (high part)
 
-> 2FDE-2FF3	(22)	unknown
+> x2FDE-2FF3	(22)	unknown
 
 ### [Chunk2](Chunks/Chunk02.md) (Boy stats)
 
 WRAM ~	Size ~	Description
 
-> 4EB3	(2)		Current HP
+> x4EB3	(2)		Current HP
 
 ### [Chunk3](Chunks/Chunk03.md) (Boy stats)
 
 WRAM ~	Size ~	Description
 
-> 4ECF	(2)		Status 1 - Status ID
+> x4ECF	(2)		Status 1 - Status ID
 
-> 4ED1	(2)		Status 1 - Main Timer
+> x4ED1	(2)		Status 1 - Main Timer
 
-> 4ED3	(2)		Status 1 - Boost provided to statistic(s), OR Time since/until last/next damage/healing interval
+> x4ED3	(2)		Status 1 - Boost provided to statistic(s), OR Time since/until last/next damage/healing interval
 
-> 4ED5	(2)		Status 2 - Status ID
+> x4ED5	(2)		Status 2 - Status ID
 
-> 4ED7	(2)		Status 2 - Main Timer
+> x4ED7	(2)		Status 2 - Main Timer
 
-> 4ED9	(2)		Status 2 - Boost provided to statistic(s), OR Time since/until last/next damage/healing interval
+> x4ED9	(2)		Status 2 - Boost provided to statistic(s), OR Time since/until last/next damage/healing interval
 
-> 4EDB	(2)		Status 3 - Status ID
+> x4EDB	(2)		Status 3 - Status ID
 
-> 4EDD	(2)		Status 3 - Main Timer
+> x4EDD	(2)		Status 3 - Main Timer
 
-> 4EDF	(2)		Status 3 - Boost provided to statistic(s), OR Time since/until last/next damage/healing interval
+> x4EDF	(2)		Status 3 - Boost provided to statistic(s), OR Time since/until last/next damage/healing interval
 
-> 4EE1	(2)		Status 4 - Status ID
+> x4EE1	(2)		Status 4 - Status ID
 
-> 4EE3	(2)		Status 4 - Main Timer
+> x4EE3	(2)		Status 4 - Main Timer
 
-> 4EE5	(2)		Status 4 - Boost provided to statistic(s), OR Time since/until last/next damage/healing interval
+> x4EE5	(2)		Status 4 - Boost provided to statistic(s), OR Time since/until last/next damage/healing interval
 
 ### [Chunk4](Chunks/Chunk04.md) (unknowns)
 
 WRAM ~	Size ~	Description
 
-> 4F23	(2)		unknown
+> x4F23	(2)		unknown
 
-> 4F25	(2)		unknown
+> x4F25	(2)		unknown
 
-> 4F27	(2)		unknown
+> x4F27	(2)		unknown
 
 ### [Chunk8](Chunks/Chunk08.md) (Boy stats)
 
 WRAM	Size	Open bus	Description
 
-> 4F29	(2)		$30:4F29	Overall boost to Attack statistic
+> x4F29	(2)		$30:4F29	Overall boost to Attack statistic
 
-> 4F2B	(2)		$30:4F2B	Overall boost to Defense statistic
+> x4F2B	(2)		$30:4F2B	Overall boost to Defense statistic
 
-> 4F2D	(2)		$30:4F2D	Overall boost to Evade % statistic
+> x4F2D	(2)		$30:4F2D	Overall boost to Evade % statistic
 
-> 4F2F	(2)		$30:4F2F	Overall boost to Hit % statistic
+> x4F2F	(2)		$30:4F2F	Overall boost to Hit % statistic
 
-> 4F31	(2)		$30:4F31	Overall boost to Magic Defense statistic
+> x4F31	(2)		$30:4F31	Overall boost to Magic Defense statistic
 
-> 4F33	(2)		$30:?		Last damage taken.
+> x4F33	(2)		$30:?		Last damage taken.
 
-> 4F35	(2)		$30:4F35	Regenerate (Horace) or Pixie Dust protection in effect
+> x4F35	(2)		$30:4F35	Regenerate (Horace) or Pixie Dust protection in effect
 
 ### [Chunk9](Chunks/Chunk09.md) (Dog stats)
 
 WRAM ~	Size ~	Description
 
-> 4F61	(2)		Current HP
+> x4F61	(2)		Current HP
 
 ### [Chunk10](Chunks/Chunk10.md) (Dog stats)
 
 WRAM ~	Size ~	Description
 
-> 4F7D	(2)		Status 1 - Status ID
+> x4F7D	(2)		Status 1 - Status ID
 
-> 4F7F	(2)		Status 1 - Main Timer
+> x4F7F	(2)		Status 1 - Main Timer
 
-> 4F81	(2)		Status 1 - Boost provided to statistic(s), OR Time since/until last/next damage/healing interval
+> x4F81	(2)		Status 1 - Boost provided to statistic(s), OR Time since/until last/next damage/healing interval
 
-> 4F83	(2)		Status 2 - Status ID
+> x4F83	(2)		Status 2 - Status ID
 
-> 4F85	(2)		Status 2 - Main Timer
+> x4F85	(2)		Status 2 - Main Timer
 
-> 4F87	(2)		Status 2 - Boost provided to statistic(s), OR Time since/until last/next damage/healing interval
+> x4F87	(2)		Status 2 - Boost provided to statistic(s), OR Time since/until last/next damage/healing interval
 
-> 4F89	(2)		Status 3 - Status ID
+> x4F89	(2)		Status 3 - Status ID
 
-> 4F8B	(2)		Status 3 - Main Timer
+> x4F8B	(2)		Status 3 - Main Timer
 
-> 4F8D	(2)		Status 3 - Boost provided to statistic(s), OR Time since/until last/next damage/healing interval
+> x4F8D	(2)		Status 3 - Boost provided to statistic(s), OR Time since/until last/next damage/healing interval
 
-> 4F8F	(2)		Status 4 - Status ID
+> x4F8F	(2)		Status 4 - Status ID
 
-> 4F91	(2)		Status 4 - Main Timer
+> x4F91	(2)		Status 4 - Main Timer
 
-> 4F93	(2)		Status 4 - Boost provided to statistic(s), OR Time since/until last/next damage/healing interval
+> x4F93	(2)		Status 4 - Boost provided to statistic(s), OR Time since/until last/next damage/healing interval
 
 ### [Chunk11](Chunks/Chunk11.md) (unknowns)
 
 WRAM ~	Size ~	Description
 
-> 4FD1	(2)		unknown
+> x4FD1	(2)		unknown
 
-> 4FD3	(2)		unknown
+> x4FD3	(2)		unknown
 
-> 4FD5	(2)		unknown
+> x4FD5	(2)		unknown
 
 ### [Chunk15](Chunks/Chunk15.md) (Boy stats)
 
 WRAM ~	Size ~	Description
 
-> 4FD7	(2)		Overall boost to Attack statistic
+> x4FD7	(2)		Overall boost to Attack statistic
 
-> 4FD9	(2)		Overall boost to Defense statistic
+> x4FD9	(2)		Overall boost to Defense statistic
 
-> 4FDB	(2)		Overall boost to Evade % statistic
+> x4FDB	(2)		Overall boost to Evade % statistic
 
-> 4FDD	(2)		Overall boost to Hit % statistic
+> x4FDD	(2)		Overall boost to Hit % statistic
 
-> 4FDF	(2)		Overall boost to Magic Defense statistic
+> x4FDF	(2)		Overall boost to Magic Defense statistic
 
-> 4FE1	(2)		Last damage taken.
+> x4FE1	(2)		Last damage taken.
 
-> 4FE3	(2)		Regenerate (Horace) or Pixie Dust protection in effect
+> x4FE3	(2)		Regenerate (Horace) or Pixie Dust protection in effect

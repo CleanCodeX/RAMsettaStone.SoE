@@ -9,12 +9,12 @@ Size: 131,072 bytes (128 KiB)
 > byte[] Unknown1 # [0x0]  (2,613 bytes)
 
 ## S-RAM area
-Offset: [xA35|2613]  (17,840 bytes)
+Offset: [x0A35|2613]  (17,840 bytes)
 
 Size: 17,840 bytes (17 KiB)
 
 ###### Chunk5 # BoyMaxHp
-> [Chunk5](Chunks/Chunk05.md) BoyMaxHp # [xA35|2613]  [$7E:4EB3]  (2 bytes)      S-RAM: [x26|38]
+> [Chunk5](Chunks/Chunk05.md) BoyMaxHp # [x0A35|2613]  [$7E:4EB3]  (2 bytes)      S-RAM: [x26|38]
 
 ###### Unknown2
 > UInt16 Unknown2A; # [2615|xA37]  (2 bytes) 

@@ -18,8 +18,11 @@ Size: 17,840 bytes (17 KiB)
 
 ###### Unknown2
 > UInt16 Unknown2A; # [2615|xA37]  (2 bytes) 
+
 > UInt16 CurrentWeaponChargingLevel # [xA39|2617]  [$7E:4EB7]  (2 bytes) 
+
 > UInt16 Unknown2B # [2619|xA3B]  (2 bytes) 
+
 > UInt16 Unknown2C # [2621|xA3D]  (2 bytes) 
 
 ###### Chunk3 # BoyStats1

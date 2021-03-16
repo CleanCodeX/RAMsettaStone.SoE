@@ -1,7 +1,7 @@
 ﻿# Chunk16 (101 bytes)
 
 ###### CurrentMapId
-* UInt16 CurrentEquippedWeapon # [S:240|xF0]  [$7E:0ABA]  (2 bytes)
+* [EquippedWeapon](../Items/Enums/EquippedWeapon.md) CurrentEquippedWeapon # [S:240|xF0]  [$7E:0ABA]  (2 bytes)
 
 ###### Unknown 9
 * UInt16 Unknown9 # [S:242|xF2]  [$7E:0ABC]  (2 bytes)
@@ -13,7 +13,7 @@
 * UInt16 BoyBraceletStatsPointer # [S:250|xFA]  [$7E:0AC4]  (2 bytes)
 
 ###### Moneys
-* [Moneys](../Items/Moneys.md) # [252|xFC]  [$7E:0AC6-0AD1]  (12 bytes)
+* [Moneys](../Items/Moneys.md) Moneys # [252|xFC]  [$7E:0AC6-0AD1]  (12 bytes)
 
 ###### EquippedAlchemies
 * byte[9] EquippedAlchemies # [S:264|x108]  [$7E:0AD2-0ADA]  (9 bytes)
@@ -22,13 +22,13 @@
 * UInt16 CurrentMapId # [S:273|x111]  [$7E:0ADB]  (1 byte)
 
 ###### Weapon Levels
-* [WeaponLevels](../Items/WeaponLevels.md) # [S:275|x113]  [$7E:0ADD-0AF8]  (28 bytes)
+* [WeaponLevels](../Items/WeaponLevels.md) WeaponLevels # [S:275|x113]  [$7E:0ADD-0AF8]  (28 bytes)
 
 ###### Unknown 11
 * byte[14] Unknown11 # [S:303|x12F]  (14 bytes)
 
 ###### The dogs's attack level
-* [DogAttackLevel](../Items/WeaponLevel.md) # [S:317|x13D]  [$7E:0B07]  (2 bytes)
+* [WeaponLevel](../Items/WeaponLevel.md) DogAttackLevel # [S:317|x13D]  [$7E:0B07]  (2 bytes)
 
 ###### Action screen (8 bytes) 
 * UInt16 BoyCombativeness # [S:319|x13F]  [$7E:0B09] 0-6 
@@ -42,7 +42,7 @@
 
 * UInt32 ScriptedEventTimer # [S:331|x14B]  [$7E:0B19]
 
-###### Control Prefs screen
+###### Control Prefs screen (6 bytes)
 * UInt16 ControlsPrefs_Configuration # [S:335|x14F]  [$7E:0B21] 0, 2
 * UInt16 ControlPrefs_RunButton # [S:337|x151]  [$7E:0B23]
 * UInt16 ControlPrefs_AttackButton # [S:339|x153]  [$7E:0B25]

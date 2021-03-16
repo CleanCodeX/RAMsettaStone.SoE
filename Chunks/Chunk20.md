@@ -1,25 +1,29 @@
 ﻿# Chunk20 (44 bytes)
 
-###### Unknown 17C
-* UInt16 Unknown17C # [741|x2DD]  [$7E:235D]  (2 bytes) 
+* UInt16 UnknownFireEyesState1 # [741|x2E5]  [$7E:2361]
 
-###### CurrentEquippedWapon  00 - 1A, even numbers, inclusive. See <see cref="Weapons" /> for weapon order.
-* [EquippedWeapon](../Items/Enums/EquippedWeapon.md) CurrentEquippedWapon # [743|x2E7]  [$7E:235F]  (2 byte) 
+* [EquippedWeapon](../Items/Enums/EquippedWeapon.md) CurrentEquippedWeapon # [743|x2E7]  [$7E:235F]  (2 bytes)
 
-###### Unknown 17D
-* UInt16 Unknown17D # [745|x2E9]  (2 bytes)
+* UInt16 Unknown17D # [745|x2E9]
 
-###### DogAppearance
-* [DogAppearance](../Items/Enums/DogAppearance.md) # [747|x2EB]  (2 byte) 
+* [DogAppearance](../Items/Enums/DogAppearance.md) DogAppearance # [747|x2EB]  [$7E:2363]  (2 bytes)
 
-###### Unknown 17E
-* byte[16] Unknown17E # [749|x2ED]  (16 bytes)
+* byte[4] Unknown17E1 # [749|x2ED]  (4 bytes)
 
-###### LastLandingLocation
-* [LastLandingLocation](../Items/Enums/LandingLocation.md) LastLandingLocation # [747|x2EB]  (1 byte) 
+* [ColorCode](../Items/ColorCode.md) Code1 # [753|x2F1]  [$7E:236D]  (6 bytes)
+* ColorCode Code2 # [759|x2F7]  [$7E:2373]  (6 bytes)
 
-###### PrizeId ~ ID of prize you're currently retrieving)
-* UInt16 PrizeId # [781|x30D]  [$7E:2391]   (2 bytes)
+* UInt16 Unknown17E2 # [765|x2FD] 
 
-###### PrizeQuantity ~ Quantity of prize you're currently retrieving  (seems to be quickly decremented to 1, though)
-* UInt16 PrizeQuantity # [783|x30F]  [$7E:2393]  (2 bytes)
+* [LastLandingLocation](../Items/Enums/LandingLocation.md)  LastLandingLocation # [767|x2FF]  [$7E:237B]  (2 bytes)
+* LandingLocation NewLandingLocation # [769|x2301]  [$7E:237D]  (2 bytes)
+
+* [SandwhirlProgress](../Items/Enums/SandwhirlProgress.md)  SandwhirlProgress  # [771|x303]  [$7E:237F]  (2 bytes)	
+* [Coordinates](../Items/Coordinates.md) DogTeleportationCoordinates # [773|x305]  [$7E:2381]  (4 bytes)		
+* Coordinates BoyTeleportationCoordinates # [777|x309]  [$7E:2385]  (4 bytes)		
+
+# ID of prize you're currently retrieving
+* UInt16 PrizeId # [781|x30D]  [$7E:2391] 
+
+# Quantity of prize you're currently retrieving  (seems to be quickly decremented to 1, though)
+* UInt16 PrizeQuantity # [783|x30F]  [$7E:2393] 

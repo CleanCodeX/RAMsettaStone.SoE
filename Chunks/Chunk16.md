@@ -39,7 +39,6 @@
 ###### Window Prefs screen (4 bytes)
 * UInt16 WindowPrefs_Pattern # [S:327|x148]  [$7E:0B15] 24, 34, ... A4
 * UInt16 WindowPrefs_Border # [S:329|x14A]  [$7E:0B17] Even numbers 0-14, inclusive
-
 * UInt32 ScriptedEventTimer # [S:331|x14B]  [$7E:0B19]
 
 ###### Control Prefs screen (6 bytes)

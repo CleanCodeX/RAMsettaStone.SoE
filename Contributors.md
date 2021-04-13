@@ -11,4 +11,4 @@
 * Chunk border definition
 
 ## black-sliver, neagix
-* Offsets from [data.h](https://github.com/black-sliver/SoEScriptDumper/blob/master/data.h) 
+* Most offsets defined in [data.h](https://github.com/black-sliver/SoEScriptDumper/blob/master/data.h) 

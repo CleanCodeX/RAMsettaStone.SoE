@@ -10,8 +10,8 @@
 
 * byte[4] Unknown17E1 # [749|x2ED]  (4 bytes)
 
-* [ColorCode](../Items/ColorCode.md) Code1 # [753|x2F1]  [$7E:236D]  (6 bytes)
-* ColorCode Code2 # [759|x2F7]  [$7E:2373]  (6 bytes)
+* [ColorCode](../Items/ColorCode.md) AlarmCode # [753|x2F1]  [$7E:236D]  (6 bytes)
+* ColorCode SecretCode # [759|x2F7]  [$7E:2373]  (6 bytes)
 
 * UInt16 Unknown17E2 # [765|x2FD] 
 

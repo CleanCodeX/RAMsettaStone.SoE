@@ -1,6 +1,5 @@
 ﻿# SoE ~ RAMsetta Stone Document
 
-For Copyrights see:
 [Contributors](Contributors.md)
 
 ## S-RAM »Rosetta Stone« Document 

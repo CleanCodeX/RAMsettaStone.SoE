@@ -22,8 +22,5 @@
 * [Coordinates](../Items/Coordinates.md) DogTeleportationCoordinates # [773|x305]  [$7E:2381]  (4 bytes)		
 * Coordinates BoyTeleportationCoordinates # [777|x309]  [$7E:2385]  (4 bytes)		
 
-# ID of prize you're currently retrieving
 * UInt16 PrizeId # [781|x30D]  [$7E:2391] 
-
-# Quantity of prize you're currently retrieving  (seems to be quickly decremented to 1, though)
 * UInt16 PrizeQuantity # [783|x30F]  [$7E:2393] 

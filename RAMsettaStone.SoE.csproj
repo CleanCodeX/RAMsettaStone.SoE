@@ -10,7 +10,7 @@
 		<Description>SoE's RAMsetta Stone document</Description>
 		<Company>KST</Company>
 		<RepositoryUrl>https://github.com/CleanCodeX/RAMsettaStone.SoE</RepositoryUrl>
-		<PackageProjectUrl>http://evermore.xeth.de</PackageProjectUrl>
+		<PackageProjectUrl>https://evermore.xeth.de</PackageProjectUrl>
 		<Product>RAMsettaStone.SoE »Rosetta Stone«</Product>
 		<Platforms>AnyCPU</Platforms>
 		<RepositoryType>Rosetta Stone</RepositoryType>
